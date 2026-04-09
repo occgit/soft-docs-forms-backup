@@ -25,6 +25,7 @@ from playwright.sync_api import (
 #
 # Retry only failed IDs from CSV
 #   python 02-download-forms.py --failed-form-ids-csv <path>
+#   python scripts/02-download-forms.py --failed-form-ids-csv "C:/Users/axvasava/Desktop/repos/soft-docs-forms-backup/backups/2026-04-08_141624/failed_form_ids.csv"
 
 
 # URL and per-form files page template
