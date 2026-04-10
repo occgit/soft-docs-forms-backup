@@ -8,7 +8,7 @@ from typing import Dict, List
 BACKUPS_ROOT = Path("backups")
 
 # Backup run folder to inspect
-RUN_FOLDER = "2026-04-08_141624"  # update this for the backup run you want to inspect
+RUN_FOLDER = "2026-04-10_130203"  # update this for the backup run you want to inspect
 
 # Input file listing duplicate form_ids
 DUPLICATES_CSV_NAME = "duplicate_form_folders.csv"
