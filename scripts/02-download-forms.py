@@ -21,10 +21,10 @@ from playwright.sync_api import (
 
 # Usage examples:
 # Full scan: iterate sequential form IDs
-#   python 02-download-forms.py --max-id 300
+#   python scripts/02-download-forms.py --max-id 2
 #
 # Retry only failed IDs from CSV
-#   python 02-download-forms.py --failed-form-ids-csv <path>
+#   python scripts/02-download-forms.py --failed-form-ids-csv <path>
 #   python scripts/02-download-forms.py --failed-form-ids-csv "C:/Users/axvasava/Desktop/repos/soft-docs-forms-backup/backups/2026-04-10_130203/failed_form_ids.csv"
 
 

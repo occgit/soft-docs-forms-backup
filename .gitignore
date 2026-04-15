@@ -208,3 +208,7 @@ __marimo__/
 
 # State
 state/
+
+# MISC
+*publish-scan*
+*missing*.md
