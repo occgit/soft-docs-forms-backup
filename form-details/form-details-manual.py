@@ -3,8 +3,8 @@ from pathlib import Path
 
 
 # ---- CONFIG ----
-INPUT_FILE = Path("./misc/form-info-input.txt")
-OUTPUT_FILE = Path("./output/form-info.json")
+INPUT_FILE = Path("./misc/form-details-input.txt")
+OUTPUT_FILE = Path("./output/form-details.json")
 # ----------------
 
 

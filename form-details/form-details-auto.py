@@ -15,7 +15,7 @@ from playwright.sync_api import (
 )
 
 # Example run:
-# python form-info/form-info.py --min-form-id 264 --max-form-id 266
+# python form-details/form-details.py --min-form-id 264 --max-form-id 266
 
 # Base Softdocs URL
 BASE_URL = "https://oaklandcccentral.etrieve.cloud"
@@ -27,7 +27,7 @@ FORM_SETTINGS_URL_TEMPLATE = BASE_URL + "/Index#/settings/forms/{form_id}"
 DEFAULT_MARKDOWN_FILE = "./misc/required.md"
 
 # Output files
-OUTPUT_JSON_FILE = Path("./form-info/output/form-details.json")
+OUTPUT_JSON_FILE = Path("./form-details/output/form-details.json")
 ERROR_LOG_FILE = Path("./logs/form-details-errors.log")
 
 # Chrome / Playwright setup

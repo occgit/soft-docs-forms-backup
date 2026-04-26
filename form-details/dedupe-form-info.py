@@ -3,8 +3,8 @@ from pathlib import Path
 
 
 # File paths
-INPUT_FILE = Path("./form-info/output/form-details.json")
-OUTPUT_FILE = Path("./form-info/output/form-details-deduped.json")
+INPUT_FILE = Path("./form-details/output/form-details.json")
+OUTPUT_FILE = Path("./form-details/output/form-details-deduped.json")
 
 def load_json_file(file_path):
     with file_path.open("r", encoding="utf-8") as file:
