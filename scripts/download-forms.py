@@ -14,6 +14,8 @@ from typing import Any
 
 from playwright.sync_api import Browser, BrowserContext, Download, Page, Playwright, sync_playwright
 
+# scripts/python download-forms.py --use-form-details-json
+
 
 # ---------------------------------------
 # Softdocs URLs
@@ -40,6 +42,7 @@ DEFAULT_MIN_ID = 1
 DEFAULT_MAX_ID = 10
 DEFAULT_OUTPUT_ROOT = "backups"
 FAILED_FORM_IDS_CSV_DEFAULT = ""
+DEFAULT_FORM_DETAILS_JSON = "form-details/output/form-details-deduped.json"
 
 
 # ---------------------------------------
@@ -90,14 +93,21 @@ def ensure_directory(path: Path) -> None:
     path.mkdir(parents=True, exist_ok=True)
 
 
-def build_output_paths(output_root: Path) -> tuple[Path, Path, Path]:
-    """Create the main run folder, zip folder, and manifest file path."""
+def build_output_paths(output_root: Path) -> tuple[Path, Path, Path, Path]:
+    """
+    Creates:
+    - Run root
+    - Zip folder
+    - Extracted folder
+    - Manifest path
+    """
 
     run_root = output_root / now_timestamp()
     zip_root = run_root / "zips"
+    extracted_root = run_root / "extracted"
     manifest_path = run_root / "manifest.json"
 
-    return run_root, zip_root, manifest_path
+    return run_root, zip_root, extracted_root, manifest_path
 
 
 def save_manifest(manifest_path: Path, manifest: dict[str, Any]) -> None:
@@ -288,16 +298,20 @@ def click_download_icon_and_wait(page: Page) -> Download:
 def save_and_extract_download(
     download: Download,
     zip_root: Path,
+    extracted_root: Path,
     form_output_dir: Path,
 ) -> tuple[Path, Path]:
-    """Save the downloaded zip and extract it into the form backup folder."""
+    """
+    Saves zip to /zips/
+    Extracts contents to /extracted/{form_folder}/
+    """
 
     ensure_directory(zip_root)
-    ensure_directory(form_output_dir)
+    ensure_directory(extracted_root)
 
     zip_name = f"{form_output_dir.name}.zip"
     zip_path = zip_root / zip_name
-    extracted_dir = form_output_dir / "extracted"
+    extracted_dir = extracted_root / form_output_dir.name
 
     download.save_as(str(zip_path))
 
@@ -383,21 +397,66 @@ def parse_form_ids_csv(csv_path: Path) -> list[int]:
 
     return form_ids
 
+def parse_form_ids_from_details_json(json_path: Path) -> list[int]:
+    """Read form IDs from form-details-deduped.json."""
+
+    if not json_path.exists():
+        raise FileNotFoundError(f"JSON not found: {json_path.resolve()}")
+
+    data = json.loads(json_path.read_text(encoding="utf-8"))
+
+    if not isinstance(data, list):
+        raise ValueError("Form details JSON must be a list of form objects")
+
+    form_ids: list[int] = []
+    seen: set[int] = set()
+
+    for index, item in enumerate(data, start=1):
+        if not isinstance(item, dict):
+            raise ValueError(f"Item {index} is not a JSON object")
+
+        raw_form_id = item.get("form_id")
+
+        if raw_form_id is None:
+            continue
+
+        try:
+            form_id = int(raw_form_id)
+        except ValueError as exc:
+            raise ValueError(
+                f"Invalid form_id '{raw_form_id}' at item {index}"
+            ) from exc
+
+        if form_id not in seen:
+            seen.add(form_id)
+            form_ids.append(form_id)
+
+    if not form_ids:
+        raise ValueError("No form_id values found in JSON")
+
+    return form_ids
 
 def resolve_form_ids(
     min_id: int,
     max_id: int,
     failed_form_ids_csv: str,
+    use_form_details_json: bool,
+    form_details_json: str,
 ) -> list[int]:
     """
     Decide which form IDs to process.
 
-    - If a failed IDs CSV is provided, use that.
-    - Otherwise, use the min/max ID range.
+    Priority:
+    1. Failed form IDs CSV
+    2. form-details-deduped.json
+    3. Min/max ID range
     """
 
     if failed_form_ids_csv:
         return parse_form_ids_csv(Path(failed_form_ids_csv).resolve())
+
+    if use_form_details_json:
+        return parse_form_ids_from_details_json(Path(form_details_json).resolve())
 
     if min_id > max_id:
         raise ValueError("--min-id cannot be greater than --max-id")
@@ -409,6 +468,7 @@ def scan_and_backup_forms(
     page: Page,
     run_root: Path,
     zip_root: Path,
+    extracted_root: Path,
     form_ids: list[int],
     manifest: dict[str, Any],
 ) -> None:
@@ -462,6 +522,7 @@ def scan_and_backup_forms(
             zip_path, extracted_dir = save_and_extract_download(
                 download=download,
                 zip_root=zip_root,
+                extracted_root=extracted_root,
                 form_output_dir=form_dir,
             )
 
@@ -500,6 +561,8 @@ def main() -> None:
     parser.add_argument("--output-root", default=DEFAULT_OUTPUT_ROOT)
     parser.add_argument("--failed-form-ids-csv", default=FAILED_FORM_IDS_CSV_DEFAULT)
     parser.add_argument("--cdp-url", default=DEFAULT_CDP_URL)
+    parser.add_argument("--use-form-details-json", action="store_true")
+    parser.add_argument("--form-details-json", default=DEFAULT_FORM_DETAILS_JSON)
 
     args = parser.parse_args()
 
@@ -507,6 +570,8 @@ def main() -> None:
         min_id=args.min_id,
         max_id=args.max_id,
         failed_form_ids_csv=args.failed_form_ids_csv,
+        use_form_details_json=args.use_form_details_json,
+        form_details_json=args.form_details_json,
     )
 
     if not form_ids:
@@ -514,10 +579,11 @@ def main() -> None:
         sys.exit(97)
 
     output_root = Path(args.output_root).resolve()
-    run_root, zip_root, manifest_path = build_output_paths(output_root)
+    run_root, zip_root, extracted_root, manifest_path = build_output_paths(output_root)
 
     ensure_directory(run_root)
     ensure_directory(zip_root)
+    ensure_directory(extracted_root)
 
     manifest: dict[str, Any] = {
         "started_at": datetime.now().isoformat(),
@@ -530,6 +596,11 @@ def main() -> None:
         "run_root": str(run_root),
         "zip_root": str(zip_root),
         "results": [],
+        "use_form_details_json": args.use_form_details_json,
+        "extracted_root": str(extracted_root),
+        "form_details_json": str(Path(args.form_details_json).resolve())
+        if args.use_form_details_json
+        else None,
     }
 
     browser: Browser | None = None
@@ -559,6 +630,7 @@ def main() -> None:
                 page=page,
                 run_root=run_root,
                 zip_root=zip_root,
+                extracted_root=extracted_root,
                 form_ids=form_ids,
                 manifest=manifest,
             )
