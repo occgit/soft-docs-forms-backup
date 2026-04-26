@@ -41,7 +41,7 @@ CHROME_USER_DATA_DIR = Path.home() / "AppData/Local/ChromePlaywrightSoftdocs"
 DEFAULT_MIN_ID = 1
 DEFAULT_MAX_ID = 10
 DEFAULT_OUTPUT_ROOT = "backups"
-FAILED_FORM_IDS_CSV_DEFAULT = ""
+FAILED_FORM_IDS_CSV_DEFAULT = "backups/2026-04-26_124426/failed_form_ids.csv"
 DEFAULT_FORM_DETAILS_JSON = "form-details/output/form-details-deduped.json"
 
 

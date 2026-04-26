@@ -1,16 +1,40 @@
 import os
 from pathlib import Path
 
-def delete_exact_filename(root_folder: str, target_filename: str, dry_run: bool = True):
+
+# ---------------------------------------
+# CONFIGURATION
+# ---------------------------------------
+
+# Add exact filenames here
+TARGET_FILENAMES = [
+    "autosize.min.js",
+    "bootstrap.min.css",
+    "form.json",
+    "jquery.maskedinput.js",
+    "liveViewModel.js",
+]
+
+# Set to True to preview matches only
+# Set to False to actually delete files
+DRY_RUN = False
+
+
+def delete_exact_filenames(
+    root_folder: str,
+    target_filenames: list[str],
+    dry_run: bool = True,
+):
     """
-    Find and optionally delete files with an exact filename match
+    Find and optionally delete files with exact filename matches
     from the given folder and all subfolders.
 
     Args:
         root_folder: The top-level folder to search.
-        target_filename: The exact file name to match.
+        target_filenames: List of exact file names to match.
         dry_run: If True, only report matches. If False, delete them.
     """
+
     root_path = Path(root_folder)
 
     if not root_path.exists():
@@ -21,19 +45,33 @@ def delete_exact_filename(root_folder: str, target_filename: str, dry_run: bool 
         print(f"Path is not a folder: {root_path}")
         return
 
-    matches = []
+    # Remove blanks and duplicates
+    cleaned_filenames = list({
+        file_name.strip()
+        for file_name in target_filenames
+        if file_name.strip()
+    })
+
+    if not cleaned_filenames:
+        print("No valid target filenames configured.")
+        return
+
+    matches: list[Path] = []
 
     for current_root, _, files in os.walk(root_path):
         for file_name in files:
-            if file_name == target_filename:
+            if file_name in cleaned_filenames:
                 full_path = Path(current_root) / file_name
                 matches.append(full_path)
 
     if not matches:
-        print(f'No files found with exact name: "{target_filename}"')
+        print("\nNo matching files found for:")
+        for file_name in cleaned_filenames:
+            print(f" - {file_name}")
         return
 
-    print(f'\nFound {len(matches)} matching file(s):\n')
+    print(f"\nFound {len(matches)} matching file(s):\n")
+
     for match in matches:
         print(match)
 
@@ -45,6 +83,7 @@ def delete_exact_filename(root_folder: str, target_filename: str, dry_run: bool 
     failed_count = 0
 
     print("\nDeleting files...\n")
+
     for match in matches:
         try:
             match.unlink()
@@ -62,13 +101,9 @@ def delete_exact_filename(root_folder: str, target_filename: str, dry_run: bool 
 
 if __name__ == "__main__":
     folder_input = input("Enter the folder path to search: ").strip()
-    filename_input = input("Enter the exact file name to delete: ").strip()
-    dry_run_input = input("Dry run only? (y/n): ").strip().lower()
 
-    dry_run = dry_run_input in {"y", "yes"}
-
-    delete_exact_filename(
+    delete_exact_filenames(
         root_folder=folder_input,
-        target_filename=filename_input,
-        dry_run=dry_run
+        target_filenames=TARGET_FILENAMES,
+        dry_run=DRY_RUN,
     )

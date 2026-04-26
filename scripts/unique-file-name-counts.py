@@ -52,7 +52,7 @@ def write_markdown(root_path, filename_counts, folder_count):
 
 
 if __name__ == "__main__":
-    root_folder = r"C:\Users\axvasava\Desktop\repos\soft-docs-forms-backup\backups\2026-04-10_130203"
+    root_folder = r"C:\Users\axvasava\Desktop\repos\soft-docs-forms-backup\utility-forms-2026-04-26_124426"
 
     filename_counts = count_filenames(root_folder)
     folder_count = count_top_level_folders(root_folder)
