@@ -14,7 +14,7 @@ from typing import Any
 
 from playwright.sync_api import Browser, BrowserContext, Download, Page, Playwright, sync_playwright
 
-# scripts/python download-forms.py --use-form-details-json
+# python scripts/download-forms.py --use-form-details-json
 
 
 # ---------------------------------------
