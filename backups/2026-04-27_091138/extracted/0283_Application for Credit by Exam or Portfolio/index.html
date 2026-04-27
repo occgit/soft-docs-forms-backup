@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>New Etrieve Form</title>
+        <link rel="stylesheet" href="bootstrap.min.css"
+        />
+        <!-- <script src="jquery-2.2.0.min.js"></script>  <script src="JS.js"></script> -->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"
+        />
+        <style>
+            .ui-datepicker{ position: relative; z-index: 10000 !important; }
+        </style>
+        <style>
+            .page { margin: 10px auto; border: 1px solid #ddd; box-shadow: 0 0 30px grey; padding: 10px; background-color:white; }
+        </style>
+    </head>
+    
+    <body>
+        <div class="page container">
+            <div id="HeaderRow2" name="HeaderRow" class="text-left row " style="overflow: auto;  padding:4% 0% 4% 0%;  margin:0% 0% 0% 0%;  background-color:#ffffff;  color:#000000; ">
+                <div id="col3" class="col-xs-12 col-sm-12 text-right  ">
+                    <h5 id="ele4" name="ele37" class="text-right  "><i>Revised 04/26</i></h5>
+                </div>
+                <div id="HeaderLeft5" name="HeaderLeft" class="col-xs-12 col-sm-12 text-center  ">
+                    <img id="HeaderLogo6" name="HeaderLogo" class="col-sm-12 text-center  "
+                    src="https://oaklandcc.edu/images/softdocs/thumbnail_horizontal.png" width="80%"
+                    alt="Oakland Community College logo" />
+                </div>
+                <div id="HeaderRight7" name="HeaderRight" class="col-xs-12 col-sm-12 text-center  ">
+                    <h2 id="h2_8" name="h2_27" class="text-center  "><b>Application for Credit by Exam or Portfolio</b></h2>
+                </div>
+                <div id="col9" class="col-xs-12 col-sm-12 text-left  " style=" padding:0px 0px 0px 0px;  margin:-20px 0px 0px 0px; ">
+                    <hr id="ele10" name="ele34" class="text-left  " style=" border-color:#046A38;  border-width:3px; "
+                    />
+                </div>
+            </div>
+            <div id="row11" class="text-left row ">
+                <div id="col12" class="col-xs-12 col-sm-12 text-left  ">
+                    <p id="ele13" name="ele13" class="col-xs-12 col-sm-12 text-left  "><strong>For students with prior learning experience, credit for prior learning can help save time and money toward achieving academic goals. Please review the course description and learning outcomes for the course you are considering prior to applying. Reach out to the faculty member or academic dean with any questions about course content. 
+</strong>
+                    </p>
+                </div>
+                <div id="col15" class="col-xs-12 col-sm-12 text-left  ">
+                    <p id="ele16" name="ele16" class="text-left  "><strong>Note:</strong>
+                    </p>
+                    <ul><strong>
+<li>Students must be degree or certificate seeking and may not earn more than 45 credits via credit for prior learning. </li>
+<li>The fee is $25 per exam or portfolio review. This fee is non-refundable and only one submission is allowed per course. </li>
+<li>If the application is approved, the fee must be paid before taking the exam or submitting the portfolio for review. Payment can be made via MyOCC. </li>
+<li>The grade earned through credit by exam or portfolio becomes the final grade for the class and is added to a student’s transcript and GPA. </li>
+<li>Credit transferability is subject to policies of the receiving institution. Students who intend to transfer should discuss with an OCC counselor. </li>
+</strong>
+                    </ul>
+                    <p></p>
+                </div>
+            </div>
+            <div id="quickHeadingRow20" name="quickHeadingRow" class="text-left row "
+            style="overflow: auto;  margin-top: 10px; margin-bottom: 10px; ">
+                <div id="quickHeadingColumn21" name="quickHeadingColumn" class="col-xs-12 col-sm-12 text-left  "
+                style=" background-color:#046A38;  color:#ffffff;  border:1px solid black; border-radius:5px; ">
+                    <h4 id="quickHeadingSmall22" name="quickHeadingSmall" class="text-center  "
+                    style=" font-weight: bold; ">Student Information</h4>
+                </div>
+            </div>
+            <div id="row24" class="text-left row ">
+                <div id="col27" class="col-xs-6 col-sm-6 text-left  ">
+                    <div class="col-xs-12 col-sm-12 text-left  ">
+                        <label for="originatorDisplayName">Student Name</label>
+                        <input id="originatorDisplayName" name="originatorDisplayName"
+                        class="col-xs-12 col-sm-12 text-left  " readonly="true" />
+                    </div>
+                </div>
+                <div id="col25" class="col-xs-6 col-sm-6 text-left  ">
+                    <div class="col-xs-12 col-sm-12 text-left  ">
+                        <label for="originatorErpId">Student ID</label>
+                        <input id="originatorErpId" name="originatorErpId" class="col-xs-12 col-sm-12 text-left  "
+                        readonly="true" />
+                    </div>
+                </div>
+                <div id="col29" class="col-xs-6 col-sm-6 text-left  ">
+                    <div class="col-xs-12 col-sm-12 text-left  ">
+                        <label for="originatorEmail">Student Email</label>
+                        <input id="originatorEmail" name="originatorEmail"
+                        class="col-xs-12 col-sm-12 text-left  " readonly="true" />
+                    </div>
+                </div>
+                <div id="col31" class="col-xs-6 col-sm-6 text-left  ">
+                    <div class="col-xs-12 col-sm-12 text-left maskphone ">
+                        <label for="studentPhoneNumber">Phone Number</label>
+                        <input id="studentPhoneNumber" name="studentPhoneNumber"
+                        class="col-xs-12 col-sm-12 text-left maskphone " readonly="true" />
+                    </div>
+                </div>
+                <div id="col33" class="col-xs-6 col-sm-6 text-left  ">
+                    <div class="col-xs-12 col-sm-12 text-left  ">
+                        <label for="additionalEmail">Additional Student Email</label>
+                        <input id="additionalEmail" name="additionalEmail"
+                        class="col-xs-12 col-sm-12 text-left  " data-bind="email" />
+                    </div>
+                </div>
+                <div id="col35" class="col-xs-6 col-sm-6 text-left  ">
+                    <div class="col-xs-12 col-sm-12 text-left maskphone ">
+                        <label for="additionalPhone">Additional Student Phone</label>
+                        <input id="additionalPhone" name="additionalPhone"
+                        class="col-xs-12 col-sm-12 text-left maskphone " />
+                    </div>
+                </div>
+                <div id="col45" class="col-xs-12 col-sm-12 text-left  ">
+                    <div class="col-xs-12 col-sm-12 text-left  ">
+                        <label for="studentProgram">Degree and/or Certificate Program</label>
+                        <input id="studentProgram" name="studentProgram"
+                        class="col-xs-12 col-sm-12 text-left  " readonly="true" placeholder="pull all active programs"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div id="quickHeadingRow39" name="quickHeadingRow" class="text-left row "
+            style="overflow: auto;  margin-top: 10px; margin-bottom: 10px; ">
+                <div id="quickHeadingColumn40" name="quickHeadingColumn" class="col-xs-12 col-sm-12 text-left  "
+                style=" background-color:#046A38;  color:#ffffff;  border:1px solid black; border-radius:5px; ">
+                    <h4 id="quickHeadingSmall41" name="quickHeadingSmall" class="text-center  "
+                    style=" font-weight: bold; ">Course Information</h4>
+                </div>
+            </div>
+            <div id="row42" name="row42" class="text-left row ">
+                <div id="col44" class="col-xs-10 col-sm-10 text-left  ">
+                    <div class="text-left  ">
+                        <label for="course">Course for which you are pursuing credit for prior learning</label>
+                        <input
+                        id="course" name="course" class="text-left  " required="required" data-bind="autocomplete: { integrationSource: 'Etrieve_Integration_Get_Credit_By_Exam_Info',  clearOnFocus: true,  validate: true,  labelMask: ['CourseCode', ' | ', 'CourseTitle'],  formFields: {'chairCoordinator':'ChairCoordinatorEmail', 'dean':'DeanEmail', 'adminSpecialist':'AdministrativeSpecialistEmail', 'selectedCourse':'CourseCode'} } "
+                        />
+                    </div>
+                </div>
+            </div>
+            <div id="row67" class="text-left row otherCourse ">
+                <div id="col68" class="col-xs-6 col-sm-6 text-left  ">
+                    <div class="text-left  ">
+                        <label for="otherCourse">Other Course</label>
+                        <input id="otherCourse" name="otherCourse" class="text-left  "
+                        />
+                    </div>
+                </div>
+            </div>
+            <div id="quickHeadingRow399913131616" name="quickHeadingRow" class="text-left row "
+            style="overflow: auto;  margin-top: 10px; margin-bottom: 10px; ">
+                <div id="quickHeadingColumn4091316" name="quickHeadingColumn" class="col-xs-12 col-sm-12 text-left  "
+                style=" background-color:#046A38;  color:#ffffff;  border:1px solid black; border-radius:5px; ">
+                    <h4 id="quickHeadingSmall" name="quickHeadingSmall" class="text-center  "
+                    style=" font-weight: bold; ">Administrative Specialist</h4>
+                </div>
+            </div>
+            <div id="row182" class="text-left row ">
+                <div id="col183" class="col-xs-12 col-sm-12 text-left  ">
+                    <p id="ele184" name="ele184" class="text-left  "><strong> For questions regarding the course section setup for CPL, click here <a href="Credit for Prior Learning.section info 11.19.25">Credit for Prior Learning (CPL) - Course Section Setup</a>
+</strong>
+                    </p>
+                </div>
+            </div>
+            <div id="row109" class="text-left row ">
+                <div id="col110" class="col-xs-6 col-sm-6 text-left  ">
+                    <div class="text-left  ">
+                        <label for="semester">Semester</label>
+                        <input id="semester" name="semester" class="text-left  "
+                        />
+                    </div>
+                </div>
+                <div id="col111" class="col-xs-6 col-sm-6 text-left  ">
+                    <div class="text-left  ">
+                        <label for="courseCode">Course Code</label>
+                        <input id="courseCode" name="courseCode" class="text-left  "
+                        />
+                    </div>
+                </div>
+                <div id="col112" class="col-xs-6 col-sm-6 text-left  ">
+                    <div class="text-left  ">
+                        <label for="section">Section Number (Campus Designation EXM)</label>
+                        <input id="section" name="section"
+                        class="text-left  " />
+                    </div>
+                </div>
+                <div id="col113" class="col-xs-6 col-sm-6 text-left  ">
+                    <div class="text-left  ">
+                        <label for="testingCenter">Testing Center</label>
+                        <input id="testingCenter" name="testingCenter" class="text-left  "
+                        />
+                    </div>
+                </div>
+            </div>
+            <div id="row8715151717" name="" class="text-left row ">
+                <div id="col971517" class="col-xs-12 col-sm-12 text-left  ">
+                    <label for="adminNotes">Notes (optional)</label>
+                    <textarea id="adminNotes" name="adminNotes" class="text-left  "></textarea>
+                </div>
+            </div>
+            <div id="row421010" name="" class="text-left row ">
+                <div id="col4410" class="col-xs-8 col-sm-8 text-left  ">
+                    <div class="text-left  ">
+                        <label for="facultyPointPerson">Faculty Point Person</label>
+                        <input id="facultyPointPerson" name="facultyPointPerson"
+                        class="text-left  " placeholder="autocomplete" data-bind="autocomplete: { integrationSource: 'Etrieve_Security_Get_CW_Faculty',  clearOnFocus: true,  validate: true,  labelMask: ['UserName', ' | ', 'Email'] } "
+                        />
+                    </div>
+                </div>
+            </div>
+            <div id="quickHeadingRow3999131316161818" name="quickHeadingRow" class="text-left row "
+            style="overflow: auto;  margin-top: 10px; margin-bottom: 10px; ">
+                <div id="quickHeadingColumn409131618" name="quickHeadingColumn" class="col-xs-12 col-sm-12 text-left  "
+                style=" background-color:#046A38;  color:#ffffff;  border:1px solid black; border-radius:5px; ">
+                    <h4 id="quickHeadingSmall18" name="quickHeadingSmall18" class="text-center  "
+                    style=" font-weight: bold; ">Exam / Portfolio Review</h4>
+                </div>
+            </div>
+            <div id="row1091919" name="" class="text-left row ">
+                <div id="col11019" class="col-xs-3 col-sm-3 text-left  ">
+                    <div class="text-left  ">
+                        <label for="courseSection">Course Section</label>
+                        <input id="courseSection" name="courseSection" class="text-left  "
+                        />
+                    </div>
+                </div>
+                <div id="col11119" class="col-xs-3 col-sm-3 text-left  ">
+                    <div class="text-left  ">
+                        <label for="letterGrade">Letter Grade</label>
+                        <input id="letterGrade" name="letterGrade" class="text-left  "
+                        />
+                    </div>
+                </div>
+            </div>
+            <div id="quickHeadingRow39991313161618182121" name="quickHeadingRow" class="text-left row "
+            style="overflow: auto;  margin-top: 10px; margin-bottom: 10px; ">
+                <div id="quickHeadingColumn40913161821" name="quickHeadingColumn" class="col-xs-12 col-sm-12 text-left  "
+                style=" background-color:#046A38;  color:#ffffff;  border:1px solid black; border-radius:5px; ">
+                    <h4 id="quickHeadingSmall1821" name="quickHeadingSmall1821" class="text-center  "
+                    style=" font-weight: bold; ">Registrar Office</h4>
+                </div>
+            </div>
+            <div id="quickInputsRow147" name="quickInputsRow" class="text-left row ">
+                <div id="quickInputsColumn148" name="quickInputsColumn1" class="col-xs-12 col-sm-8 text-left  ">
+                    <div class="text-left  ">
+                        <label for="employeeSignature">Employee: Please Enter Your Name</label>
+                        <input id="employeeSignature"
+                        name="employeeSignature" class="text-left  " required="required" type="text"
+                        />
+                    </div>
+                </div>
+                <div id="quickInputsColumn150" name="quickInputsColumn2" class="col-xs-12 col-sm-4 text-left  ">
+                    <div class="text-left  ">
+                        <label for="employeeSignDate">Date</label>
+                        <input id="employeeSignDate" name="employeeSignDate" class="text-left  "
+                        readonly="true" type="text" />
+                    </div>
+                </div>
+            </div>
+            <div id="quickInputsRow153" name="quickInputsRow" class="text-left row ">
+                <div id="quickInputsColumn154" name="quickInputsColumn1" class="col-xs-12 col-sm-12 text-left  ">
+                    <hr id="hr_155" class="text-left  " />
+                </div>
+            </div>
+            <div id="row63" class="text-left row developer ">
+                <div id="col64" class="col-xs-4 col-sm-4 text-left  ">
+                    <div class="text-left  ">
+                        <label for="selectedCourse">selectedCourse (hidden)</label>
+                        <input id="selectedCourse" name="selectedCourse"
+                        class="text-left  " />
+                    </div>
+                </div>
+                <div id="col74" class="col-xs-4 col-sm-4 text-left  ">
+                    <div class="text-left  ">
+                        <label for="chairCoordinator">chairCoordinator (hidden)</label>
+                        <input id="chairCoordinator" name="chairCoordinator"
+                        class="text-left  " />
+                    </div>
+                </div>
+                <div id="col75" class="col-xs-4 col-sm-4 text-left  ">
+                    <div class="text-left  ">
+                        <label for="dean">dean (hidden)</label>
+                        <input id="dean" name="dean" class="text-left  "
+                        />
+                    </div>
+                </div>
+                <div id="col78" class="col-xs-4 col-sm-4 text-left  ">
+                    <div class="text-left  ">
+                        <label for="adminSpecialist">adminSpecialist (hidden)</label>
+                        <input id="adminSpecialist" name="adminSpecialist"
+                        class="text-left  " />
+                    </div>
+                </div>
+                <div id="col176" class="col-xs-4 col-sm-4 text-left  ">
+                    <div class="text-left  ">
+                        <label for="approverEmail">facultyEmail (hidden)</label>
+                        <input id="approverEmail" name="approverEmail"
+                        class="text-left  " />
+                    </div>
+                </div>
+                <div id="col179" class="col-xs-4 col-sm-4 text-left  ">
+                    <div class="text-left  ">
+                        <label for="selectedSemester">selectedSemester (hidden)</label>
+                        <input id="selectedSemester" name="selectedSemester"
+                        class="text-left  " />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
