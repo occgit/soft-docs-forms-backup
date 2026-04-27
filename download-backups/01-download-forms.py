@@ -14,7 +14,7 @@ from typing import Any
 
 from playwright.sync_api import Browser, BrowserContext, Download, Page, Playwright, sync_playwright
 
-# python scripts/download-forms.py --use-form-details-json
+# python download-backups/01-download-forms.py --use-form-details-json
 
 
 # ---------------------------------------
@@ -41,8 +41,8 @@ CHROME_USER_DATA_DIR = Path.home() / "AppData/Local/ChromePlaywrightSoftdocs"
 DEFAULT_MIN_ID = 1
 DEFAULT_MAX_ID = 10
 DEFAULT_OUTPUT_ROOT = "backups"
-FAILED_FORM_IDS_CSV_DEFAULT = "backups/2026-04-26_124426/failed_form_ids.csv"
-DEFAULT_FORM_DETAILS_JSON = "form-details/output/form-details-deduped.json"
+FAILED_FORM_IDS_CSV_DEFAULT = "backups/2026-04-27_091138/failed_form_ids.csv"
+DEFAULT_FORM_DETAILS_JSON = "form-details/output/form-details-deduped-2026-04-27.json"
 
 
 # ---------------------------------------
@@ -50,9 +50,9 @@ DEFAULT_FORM_DETAILS_JSON = "form-details/output/form-details-deduped.json"
 # ---------------------------------------
 
 PAGE_SETTLE_WAIT_MS = 1500
-PAGE_LOAD_TIMEOUT_MS = 5000
+PAGE_LOAD_TIMEOUT_MS = 3000
 POST_NAV_WAIT_MS = 500
-DOWNLOAD_TIMEOUT_MS = 4500
+DOWNLOAD_TIMEOUT_MS = 3500
 CHROME_STARTUP_WAIT_SECONDS = 2.5
 
 
