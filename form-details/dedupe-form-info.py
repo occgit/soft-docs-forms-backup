@@ -1,10 +1,13 @@
 import json
+from datetime import datetime
 from pathlib import Path
 
+# Current date for file naming
+CURRENT_DATE = datetime.now().strftime("%Y-%m-%d")
 
 # File paths
-INPUT_FILE = Path("./form-details/output/form-details.json")
-OUTPUT_FILE = Path("./form-details/output/form-details-deduped.json")
+INPUT_FILE = Path(f"./form-details/output/form-details-{CURRENT_DATE}.json")
+OUTPUT_FILE = Path(f"./form-details/output/form-details-deduped-{CURRENT_DATE}.json")
 
 def load_json_file(file_path):
     with file_path.open("r", encoding="utf-8") as file:

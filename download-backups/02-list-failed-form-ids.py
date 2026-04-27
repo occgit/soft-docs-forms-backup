@@ -8,7 +8,7 @@ from typing import Any
 BACKUPS_ROOT = Path("backups")
 
 # Backup run folder to inspect
-RUN_FOLDER = "2026-04-26_124426"  # update this for the backup run you want to inspect
+RUN_FOLDER = "2026-04-27_091138"  # update this for the backup run you want to inspect
 
 # Input/output file names within the run folder
 MANIFEST_NAME = "manifest.json"
@@ -113,14 +113,6 @@ def main() -> None:
     print(f"Manifest: {manifest_path.resolve()}")
     print(f"Failed form count: {len(failed_form_ids)}")
     print(f"CSV written to: {csv_path.resolve()}")
-    print("Failed form_ids:")
-    print(failed_form_ids)
-
-    # Prints a ready-to-copy CLI argument for retry workflows
-    if PRINT_CLI_ARG_STRING and failed_form_ids:
-        print("Retry argument:")
-        print(f"--form-ids {','.join(str(form_id) for form_id in failed_form_ids)}")
-
 
 if __name__ == "__main__":
     main()
