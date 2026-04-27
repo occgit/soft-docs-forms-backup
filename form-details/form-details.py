@@ -4,6 +4,7 @@ import re
 import subprocess
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 
 from playwright.sync_api import (
@@ -15,7 +16,7 @@ from playwright.sync_api import (
 )
 
 # Example run:
-# python form-details/form-details.py --min-form-id 264 --max-form-id 266
+# python form-details/form-details.py --min-form-id 1 --max-form-id 283
 
 # Base Softdocs URL
 BASE_URL = "https://oaklandcccentral.etrieve.cloud"
@@ -26,8 +27,11 @@ FORM_SETTINGS_URL_TEMPLATE = BASE_URL + "/Index#/settings/forms/{form_id}"
 # Default input file (only used if not using min/max)
 DEFAULT_MARKDOWN_FILE = "./misc/required.md"
 
+# Current date for file naming
+CURRENT_DATE = datetime.now().strftime("%Y-%m-%d")
+
 # Output files
-OUTPUT_JSON_FILE = Path("./form-details/output/form-details.json")
+OUTPUT_JSON_FILE = Path(f"./form-details/output/form-details-{CURRENT_DATE}.json")
 ERROR_LOG_FILE = Path("./logs/form-details-errors.log")
 
 # Chrome / Playwright setup
