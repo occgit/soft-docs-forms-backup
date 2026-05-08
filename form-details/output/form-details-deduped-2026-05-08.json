@@ -5,7 +5,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 2,
@@ -13,7 +14,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 3,
@@ -21,7 +23,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 4,
@@ -29,7 +32,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 5,
@@ -37,7 +41,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 6,
@@ -45,7 +50,8 @@
     "department": "Unassigned",
     "form_group": "Developer",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 7,
@@ -53,7 +59,8 @@
     "department": "IE-AAQ",
     "form_group": "Curriculum Review",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 8,
@@ -61,7 +68,8 @@
     "department": "IE-AAQ",
     "form_group": "Curriculum Review",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 10,
@@ -69,7 +77,8 @@
     "department": "Unassigned",
     "form_group": "Admissions",
     "anonymous": true,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 12,
@@ -77,7 +86,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 13,
@@ -85,7 +95,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 15,
@@ -93,7 +104,8 @@
     "department": "Unassigned",
     "form_group": "Utility Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 16,
@@ -101,7 +113,8 @@
     "department": "Unassigned",
     "form_group": "Public use forms",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 18,
@@ -109,7 +122,8 @@
     "department": "Human Resources",
     "form_group": "Public use forms",
     "anonymous": true,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 19,
@@ -117,7 +131,8 @@
     "department": "Human Resources",
     "form_group": "Tax Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 20,
@@ -125,7 +140,8 @@
     "department": "Human Resources",
     "form_group": "Public use forms",
     "anonymous": true,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 21,
@@ -133,7 +149,8 @@
     "department": "Human Resources",
     "form_group": "Tax Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 23,
@@ -141,7 +158,8 @@
     "department": "Unassigned",
     "form_group": "Developer",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 24,
@@ -149,7 +167,8 @@
     "department": "IE-AAQ",
     "form_group": "Curriculum Review",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 25,
@@ -157,7 +176,8 @@
     "department": "Unassigned",
     "form_group": "Utility Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 27,
@@ -165,7 +185,8 @@
     "department": "Human Resources",
     "form_group": "Tax Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 28,
@@ -173,7 +194,8 @@
     "department": "Human Resources",
     "form_group": "Public use forms",
     "anonymous": true,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 29,
@@ -181,7 +203,8 @@
     "department": "Human Resources",
     "form_group": "Tax Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 31,
@@ -189,7 +212,8 @@
     "department": "Unassigned",
     "form_group": "Tax Forms",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 32,
@@ -197,7 +221,8 @@
     "department": "Human Resources",
     "form_group": "Public use forms",
     "anonymous": true,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 33,
@@ -205,7 +230,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 34,
@@ -213,7 +239,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 35,
@@ -221,7 +248,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 36,
@@ -229,7 +257,8 @@
     "department": "Human Resources",
     "form_group": "Deprecated",
     "anonymous": true,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 37,
@@ -237,7 +266,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 38,
@@ -245,7 +275,8 @@
     "department": "Curriculum Instruction Committee",
     "form_group": "Curriculum & Instruction Committee",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 39,
@@ -253,7 +284,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 40,
@@ -261,7 +293,8 @@
     "department": "Curriculum Instruction Committee",
     "form_group": "Curriculum & Instruction Committee",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 41,
@@ -269,7 +302,8 @@
     "department": "Curriculum Instruction Committee",
     "form_group": "Curriculum & Instruction Committee",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 42,
@@ -277,7 +311,8 @@
     "department": "Curriculum Instruction Committee",
     "form_group": "Curriculum & Instruction Committee",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 45,
@@ -285,7 +320,8 @@
     "department": "Advancement",
     "form_group": "Foundation",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 46,
@@ -293,7 +329,8 @@
     "department": "Athletics",
     "form_group": "Athletics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 47,
@@ -301,7 +338,8 @@
     "department": "Athletics",
     "form_group": "Athletics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 48,
@@ -309,7 +347,8 @@
     "department": "Athletics",
     "form_group": "Athletics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 50,
@@ -317,7 +356,8 @@
     "department": "Athletics",
     "form_group": "Athletics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 51,
@@ -325,7 +365,8 @@
     "department": "Unassigned",
     "form_group": "Utility Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 52,
@@ -333,7 +374,8 @@
     "department": "Unassigned",
     "form_group": "Deprecated",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 54,
@@ -341,7 +383,8 @@
     "department": "Institutional Standards & Practices",
     "form_group": "Institutional Standards and Practices",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 55,
@@ -349,7 +392,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 56,
@@ -357,7 +401,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 57,
@@ -365,7 +410,8 @@
     "department": "Career Serrvices",
     "form_group": "Career Services",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 58,
@@ -373,7 +419,8 @@
     "department": "Athletics",
     "form_group": "Athletics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 59,
@@ -381,7 +428,8 @@
     "department": "Unassigned",
     "form_group": "Developer",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 60,
@@ -389,7 +437,8 @@
     "department": "Institutional Standards & Practices",
     "form_group": "Institutional Standards and Practices",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 61,
@@ -397,7 +446,8 @@
     "department": "Institutional Standards & Practices",
     "form_group": "Institutional Standards and Practices",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 62,
@@ -405,7 +455,8 @@
     "department": "Institutional Standards & Practices",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 63,
@@ -413,7 +464,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 65,
@@ -421,7 +473,8 @@
     "department": "Veterans Affairs",
     "form_group": "Veterans Affairs",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 66,
@@ -429,7 +482,8 @@
     "department": "Unassigned",
     "form_group": "Utility Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 67,
@@ -437,7 +491,8 @@
     "department": "Veterans Affairs",
     "form_group": "Veterans Affairs",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 68,
@@ -445,7 +500,8 @@
     "department": "Veterans Affairs",
     "form_group": "Veterans Affairs",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 69,
@@ -453,7 +509,8 @@
     "department": "Unassigned",
     "form_group": "Deprecated",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 70,
@@ -461,7 +518,8 @@
     "department": "IE-AAQ",
     "form_group": "Curriculum Review",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 71,
@@ -469,7 +527,8 @@
     "department": "Information Technologies",
     "form_group": "Information Technologies",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 72,
@@ -477,7 +536,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 73,
@@ -485,7 +545,8 @@
     "department": "Student Services",
     "form_group": "Student Services",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 74,
@@ -493,7 +554,8 @@
     "department": "Student Services",
     "form_group": "Student Services",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 75,
@@ -501,7 +563,8 @@
     "department": "Student Services",
     "form_group": "Student Services",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 76,
@@ -509,7 +572,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 78,
@@ -517,7 +581,8 @@
     "department": "Financial Services - Payroll",
     "form_group": "Payroll",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 80,
@@ -525,7 +590,8 @@
     "department": "Unassigned",
     "form_group": "Developer",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 81,
@@ -533,7 +599,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 82,
@@ -541,7 +608,8 @@
     "department": "Unassigned",
     "form_group": "Athletics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 83,
@@ -549,7 +617,8 @@
     "department": "Office of Student Engagement",
     "form_group": "Utility Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 84,
@@ -557,7 +626,8 @@
     "department": "Office of Student Engagement",
     "form_group": "Office of Student Engagement",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 85,
@@ -565,7 +635,8 @@
     "department": "Office of Student Engagement",
     "form_group": "Office of Student Engagement",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 86,
@@ -573,7 +644,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": true,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 87,
@@ -581,7 +653,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 88,
@@ -589,7 +662,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 89,
@@ -597,7 +671,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 90,
@@ -605,7 +680,8 @@
     "department": "Health Sciences",
     "form_group": "Health Sciences and Nursing",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 91,
@@ -613,7 +689,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 92,
@@ -621,7 +698,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 93,
@@ -629,7 +707,8 @@
     "department": "Human Resources",
     "form_group": "Public use forms",
     "anonymous": true,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 94,
@@ -637,7 +716,8 @@
     "department": "Human Resources",
     "form_group": "Tax Forms",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 95,
@@ -645,7 +725,8 @@
     "department": "ACCESS",
     "form_group": "Deprecated",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 96,
@@ -653,7 +734,8 @@
     "department": "Student Services",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 97,
@@ -661,7 +743,8 @@
     "department": "Public Safety",
     "form_group": "Public Safety",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 98,
@@ -669,7 +752,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 99,
@@ -677,7 +761,8 @@
     "department": "Student Services",
     "form_group": "Student Services",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 100,
@@ -685,7 +770,8 @@
     "department": "Human Resources",
     "form_group": "Utility Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 101,
@@ -693,7 +779,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 102,
@@ -701,7 +788,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 103,
@@ -709,7 +797,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 104,
@@ -717,7 +806,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 105,
@@ -725,7 +815,8 @@
     "department": "ACCESS",
     "form_group": "ACCESS",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 106,
@@ -733,7 +824,8 @@
     "department": "Financial Services - Accounts Payable",
     "form_group": "Accounts Payable & Travel/Mileage Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 107,
@@ -741,7 +833,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 108,
@@ -749,7 +842,8 @@
     "department": "Financial Services - Accounts Payable",
     "form_group": "Utility Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 109,
@@ -757,7 +851,8 @@
     "department": "Public Safety",
     "form_group": "Public Safety",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 110,
@@ -765,7 +860,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 111,
@@ -773,7 +869,8 @@
     "department": "Public Safety",
     "form_group": "Utility Forms",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 112,
@@ -781,7 +878,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 113,
@@ -789,7 +887,8 @@
     "department": "Financial Services - Accounts Payable",
     "form_group": "Utility Forms",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 114,
@@ -797,7 +896,8 @@
     "department": "Financial Aid",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 115,
@@ -805,7 +905,8 @@
     "department": "Financial Services - Accounts Payable",
     "form_group": "Accounts Payable & Travel/Mileage Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 116,
@@ -813,7 +914,8 @@
     "department": "Financial Services - Accounts Payable",
     "form_group": "Accounts Payable & Travel/Mileage Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 120,
@@ -821,7 +923,8 @@
     "department": "Placement",
     "form_group": "Placement",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 121,
@@ -829,7 +932,8 @@
     "department": "Financial Aid",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 122,
@@ -837,7 +941,8 @@
     "department": "Financial Aid",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 123,
@@ -845,7 +950,8 @@
     "department": "Financial Aid",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 124,
@@ -853,7 +959,8 @@
     "department": "Veterans Affairs",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 126,
@@ -861,7 +968,8 @@
     "department": "Registrars Office",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 127,
@@ -869,7 +977,8 @@
     "department": "Registrars Office",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 128,
@@ -877,7 +986,8 @@
     "department": "Human Resources",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 129,
@@ -885,7 +995,8 @@
     "department": "Unassigned",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 130,
@@ -893,7 +1004,8 @@
     "department": "Unassigned",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 131,
@@ -901,7 +1013,8 @@
     "department": "Unassigned",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 132,
@@ -909,7 +1022,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 133,
@@ -917,7 +1031,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 134,
@@ -925,7 +1040,8 @@
     "department": "Health Sciences",
     "form_group": "Health Sciences and Nursing",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 135,
@@ -933,7 +1049,8 @@
     "department": "Unassigned",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 136,
@@ -941,7 +1058,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 140,
@@ -949,7 +1067,8 @@
     "department": "Veterans Affairs",
     "form_group": "Veterans Affairs",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 141,
@@ -957,7 +1076,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 142,
@@ -965,7 +1085,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 143,
@@ -973,7 +1094,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 144,
@@ -981,7 +1103,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 145,
@@ -989,7 +1112,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 147,
@@ -997,7 +1121,8 @@
     "department": "Unassigned",
     "form_group": "* Instructions and Help",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 148,
@@ -1005,7 +1130,8 @@
     "department": "Student Services",
     "form_group": "Student Services",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 149,
@@ -1013,7 +1139,8 @@
     "department": "Institutional Standards & Practices",
     "form_group": "Institutional Standards and Practices",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 150,
@@ -1021,7 +1148,8 @@
     "department": "Financial Services - Accounts Payable",
     "form_group": "Accounts Payable & Travel/Mileage Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 151,
@@ -1029,7 +1157,8 @@
     "department": "Unassigned",
     "form_group": "* Instructions and Help",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 152,
@@ -1037,7 +1166,8 @@
     "department": "Institutional Standards & Practices",
     "form_group": "Institutional Standards and Practices",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 153,
@@ -1045,7 +1175,8 @@
     "department": "Financial Services - Accounts Payable",
     "form_group": "Financial Services",
     "anonymous": true,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 154,
@@ -1053,7 +1184,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 155,
@@ -1061,7 +1193,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": true,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 156,
@@ -1069,7 +1202,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 157,
@@ -1077,7 +1211,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 159,
@@ -1085,7 +1220,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 160,
@@ -1093,7 +1229,8 @@
     "department": "Financial Aid",
     "form_group": "Financial Aid",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 161,
@@ -1101,7 +1238,8 @@
     "department": "Financial Services - Accounts Payable",
     "form_group": "Accounts Payable & Travel/Mileage Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 162,
@@ -1109,7 +1247,8 @@
     "department": "Financial Services - Accounts Payable",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 163,
@@ -1117,7 +1256,8 @@
     "department": "Financial Aid",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 164,
@@ -1125,7 +1265,8 @@
     "department": "Financial Aid",
     "form_group": "Financial Aid",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 165,
@@ -1133,7 +1274,8 @@
     "department": "Unassigned",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 166,
@@ -1141,7 +1283,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 167,
@@ -1149,7 +1292,8 @@
     "department": "Student Services",
     "form_group": "Student Services",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 169,
@@ -1157,7 +1301,8 @@
     "department": "Financial Aid",
     "form_group": "Financial Aid",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 170,
@@ -1165,7 +1310,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 171,
@@ -1173,7 +1319,8 @@
     "department": "Institutional Standards & Practices",
     "form_group": "Institutional Standards and Practices",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 172,
@@ -1181,7 +1328,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 173,
@@ -1189,7 +1337,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 177,
@@ -1197,7 +1346,8 @@
     "department": "IE-AAQ",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 178,
@@ -1205,7 +1355,8 @@
     "department": "Registrars Office",
     "form_group": "Registrar",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 179,
@@ -1213,7 +1364,8 @@
     "department": "Institutional Standards & Practices",
     "form_group": "Institutional Standards and Practices",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 180,
@@ -1221,7 +1373,8 @@
     "department": "Institutional Standards & Practices",
     "form_group": "Institutional Standards and Practices",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 181,
@@ -1229,7 +1382,8 @@
     "department": "Registrars Office",
     "form_group": "Registrar",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 182,
@@ -1237,7 +1391,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 183,
@@ -1245,7 +1400,8 @@
     "department": "Purchasing",
     "form_group": "Purchasing/Auxiliary Services",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 184,
@@ -1253,7 +1409,8 @@
     "department": "Student Services",
     "form_group": "Student Services",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 185,
@@ -1261,7 +1418,8 @@
     "department": "Purchasing",
     "form_group": "Purchasing/Auxiliary Services",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 186,
@@ -1269,7 +1427,8 @@
     "department": "Institutional Standards & Practices",
     "form_group": "Institutional Standards and Practices",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 187,
@@ -1277,7 +1436,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 188,
@@ -1285,7 +1445,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 189,
@@ -1293,7 +1454,8 @@
     "department": "Human Resources",
     "form_group": "Tax Forms",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 190,
@@ -1301,7 +1463,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 191,
@@ -1309,7 +1472,8 @@
     "department": "Human Resources",
     "form_group": "Public use forms",
     "anonymous": true,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 192,
@@ -1317,7 +1481,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 193,
@@ -1325,7 +1490,8 @@
     "department": "Dual Enrollment",
     "form_group": "Admissions",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 194,
@@ -1333,7 +1499,8 @@
     "department": "Unassigned",
     "form_group": "Developer",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 195,
@@ -1341,7 +1508,8 @@
     "department": "Registrars Office",
     "form_group": "Registrar",
     "anonymous": true,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 196,
@@ -1349,7 +1517,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 197,
@@ -1357,7 +1526,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 198,
@@ -1365,7 +1535,8 @@
     "department": "Registrars Office",
     "form_group": "Registrar",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 199,
@@ -1373,7 +1544,8 @@
     "department": "Institutional Standards & Practices",
     "form_group": "Institutional Standards and Practices",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 200,
@@ -1381,7 +1553,8 @@
     "department": "Registrars Office",
     "form_group": "Registrar",
     "anonymous": true,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 201,
@@ -1389,7 +1562,8 @@
     "department": "Institutional Standards & Practices",
     "form_group": "Institutional Standards and Practices",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 204,
@@ -1397,7 +1571,8 @@
     "department": "Human Resources",
     "form_group": "Public use forms",
     "anonymous": true,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 205,
@@ -1405,7 +1580,8 @@
     "department": "Unassigned",
     "form_group": "Dashboards",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 206,
@@ -1413,7 +1589,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 207,
@@ -1421,7 +1598,8 @@
     "department": "Purchasing",
     "form_group": "Purchasing/Auxiliary Services",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 208,
@@ -1429,7 +1607,8 @@
     "department": "Financial Services - Accounts Payable",
     "form_group": "Financial Services",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 209,
@@ -1437,7 +1616,8 @@
     "department": "Environmental Health",
     "form_group": "Environmental Health & Safety",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 210,
@@ -1445,7 +1625,8 @@
     "department": "Financial Services",
     "form_group": "Financial Services",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 211,
@@ -1453,7 +1634,8 @@
     "department": "Dual Enrollment",
     "form_group": "Admissions",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 212,
@@ -1461,7 +1643,8 @@
     "department": "Financial Aid",
     "form_group": "Financial Aid",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 213,
@@ -1469,7 +1652,8 @@
     "department": "Purchasing",
     "form_group": "Purchasing/Auxiliary Services",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 214,
@@ -1477,7 +1661,8 @@
     "department": "Financial Services - Payroll",
     "form_group": "Payroll",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 219,
@@ -1485,7 +1670,8 @@
     "department": "Purchasing",
     "form_group": "Purchasing/Auxiliary Services",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 222,
@@ -1493,7 +1679,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 224,
@@ -1501,7 +1688,8 @@
     "department": "Registrars Office",
     "form_group": "Registrar",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 225,
@@ -1509,7 +1697,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 226,
@@ -1517,7 +1706,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 227,
@@ -1525,7 +1715,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 228,
@@ -1533,7 +1724,8 @@
     "department": "Student Services",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 229,
@@ -1541,7 +1733,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 231,
@@ -1549,7 +1742,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": true,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 233,
@@ -1557,7 +1751,8 @@
     "department": "Facilities",
     "form_group": "Facilities",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 234,
@@ -1565,7 +1760,8 @@
     "department": "Purchasing",
     "form_group": "Purchasing/Auxiliary Services",
     "anonymous": true,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 236,
@@ -1573,7 +1769,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 237,
@@ -1581,7 +1778,8 @@
     "department": "Financial Aid",
     "form_group": "Financial Aid",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 238,
@@ -1589,7 +1787,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 239,
@@ -1597,7 +1796,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 241,
@@ -1605,7 +1805,8 @@
     "department": "Academics",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 242,
@@ -1613,7 +1814,8 @@
     "department": "Student Services",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 243,
@@ -1621,7 +1823,8 @@
     "department": "Facilities",
     "form_group": "Facilities",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 245,
@@ -1629,7 +1832,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 246,
@@ -1637,7 +1841,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 247,
@@ -1645,7 +1850,8 @@
     "department": "Financial Services",
     "form_group": "Financial Services",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 248,
@@ -1653,7 +1859,8 @@
     "department": "Financial Aid",
     "form_group": "Financial Aid",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 249,
@@ -1661,7 +1868,8 @@
     "department": "Student Services",
     "form_group": "Student Services",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 250,
@@ -1669,7 +1877,8 @@
     "department": "Unassigned",
     "form_group": "Economic & Workforce Development",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 251,
@@ -1677,7 +1886,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 252,
@@ -1685,7 +1895,8 @@
     "department": "Unassigned",
     "form_group": "Economic & Workforce Development",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 253,
@@ -1693,7 +1904,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 254,
@@ -1701,7 +1913,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 255,
@@ -1709,7 +1922,8 @@
     "department": "Purchasing",
     "form_group": "Purchasing/Auxiliary Services",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 257,
@@ -1717,7 +1931,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 258,
@@ -1725,7 +1940,8 @@
     "department": "Economic & Workforce Development",
     "form_group": "Economic & Workforce Development",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 260,
@@ -1733,7 +1949,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 261,
@@ -1741,7 +1958,8 @@
     "department": "Financial Services",
     "form_group": "Financial Services",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 265,
@@ -1749,7 +1967,8 @@
     "department": "Unassigned",
     "form_group": "Developer",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 266,
@@ -1757,7 +1976,8 @@
     "department": "Financial Aid",
     "form_group": "Financial Aid",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 267,
@@ -1765,7 +1985,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 268,
@@ -1773,7 +1994,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 269,
@@ -1781,7 +2003,8 @@
     "department": "Purchasing",
     "form_group": "Purchasing/Auxiliary Services",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 270,
@@ -1789,7 +2012,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 271,
@@ -1797,7 +2021,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 272,
@@ -1805,7 +2030,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 273,
@@ -1813,7 +2039,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 274,
@@ -1821,7 +2048,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 276,
@@ -1829,7 +2057,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 277,
@@ -1837,7 +2066,8 @@
     "department": "Academics",
     "form_group": "Academics",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 280,
@@ -1845,7 +2075,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 281,
@@ -1853,7 +2084,8 @@
     "department": "Academics",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 282,
@@ -1861,7 +2093,8 @@
     "department": "Academics",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 283,
@@ -1869,7 +2102,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 284,
@@ -1877,7 +2111,8 @@
     "department": "Purchasing",
     "form_group": "Purchasing/Auxiliary Services",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 285,
@@ -1885,7 +2120,8 @@
     "department": "Human Resources",
     "form_group": "Human Resources",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": true
   },
   {
     "form_id": 287,
@@ -1893,7 +2129,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 288,
@@ -1901,7 +2138,8 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 289,
@@ -1909,7 +2147,8 @@
     "department": "Unassigned",
     "form_group": "Developer",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 290,
@@ -1917,7 +2156,8 @@
     "department": "Unassigned",
     "form_group": "Unassigned",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": true
   },
   {
     "form_id": 291,
@@ -1925,7 +2165,8 @@
     "department": "Unassigned",
     "form_group": "Admin",
     "anonymous": false,
-    "published": true
+    "published": true,
+    "new_forms_builder": false
   },
   {
     "form_id": 292,
@@ -1933,7 +2174,8 @@
     "department": "Unassigned",
     "form_group": "Developer",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 293,
@@ -1941,7 +2183,8 @@
     "department": "Unassigned",
     "form_group": "Developer",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   },
   {
     "form_id": 295,
@@ -1949,6 +2192,7 @@
     "department": "Unassigned",
     "form_group": "Test",
     "anonymous": false,
-    "published": false
+    "published": false,
+    "new_forms_builder": false
   }
 ]
