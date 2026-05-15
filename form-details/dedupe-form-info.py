@@ -7,8 +7,8 @@ from pathlib import Path
 CURRENT_DATE = datetime.now().strftime("%Y-%m-%d")
 
 # File paths
-INPUT_FILE = Path(f"./form-details/output/form-details-{CURRENT_DATE}.json")
-OUTPUT_FILE = Path(f"./form-details/output/form-details-deduped-{CURRENT_DATE}.json")
+INPUT_FILE = Path(f"./form-details/output/{CURRENT_DATE}-form-details.json")
+OUTPUT_FILE = Path(f"./form-details/output/{CURRENT_DATE}-form-details-deduped.json")
 
 VERSION_SUFFIX_PATTERN = re.compile(r"\bV\d+$", re.IGNORECASE)
 
